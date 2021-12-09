@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://g1-store.vercel.app/")
 @RestController
 @RequestMapping("/produtos")
 public class ProdutoController {
